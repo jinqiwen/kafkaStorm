@@ -13,6 +13,7 @@ public class KafkaConfigureAPI {
 
 	private static String zkHosts = "";
 
+
 	static {
 		String flag = SystemConfig.getProperty("dev.tag");
 		zkHosts = SystemConfig.getProperty(flag + ".kafka.zk.host");
